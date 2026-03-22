@@ -1,0 +1,67 @@
+name: sports_event_finder
+description: A sports bar finder app for fans to watch games together
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & 核心
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  
+  # 状态管理
+  provider: ^6.1.1
+  
+  # 网络请求
+  dio: ^5.4.0
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # 路由管理
+  go_router: ^13.0.0
+  
+  # 图片加载
+  cached_network_image: ^3.3.1
+  
+  # 下拉刷新
+  flutter_easyloading: ^3.0.5
+  
+  # 权限管理
+  permission_handler: ^11.3.0
+  
+  # 地图导航（打开第三方地图）
+  url_launcher: ^6.2.5
+  
+  # 选择图片
+  image_picker: ^1.0.7
+  
+  # 腾讯云IM（即时通讯）
+  tencent_im_sdk_plugin: ^3.0.0
+  
+  # 获取设备信息
+  device_info_plus: ^9.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # 图片资源
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # 字体（如有自定义字体）
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
